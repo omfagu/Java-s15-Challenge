@@ -193,7 +193,7 @@ public class Main {
                                         returnedBook.setOwner("Library");
                                         returnedBook.setDateOfPurchase(LocalDate.now());
                                         member.increaseBookLimit();
-                                        System.out.println("Kitap iade edildia");
+                                        System.out.println("Kitap iade edildi");
 
                                     } else {
                                         System.out.println("Belirtilen kitap başkasına ait. Kitap iade edilemez.");
